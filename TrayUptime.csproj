@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Computer-icon.ico</ApplicationIcon>
+    <ApplicationIcon>Date.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'vs|AnyCPU'">
     <OutputPath>bin\vs\</OutputPath>
@@ -92,7 +92,8 @@
     <None Include="Resources\Windows-Close-Program-icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Computer-icon.ico" />
+    <Content Include="Date.ico" />
+    <Content Include="Date_Tray.ico" />
     <None Include="Resources\Actions-system-run-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
